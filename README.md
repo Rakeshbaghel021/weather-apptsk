@@ -46,3 +46,10 @@ Here's an example template for a README file with instructions:
    npm install
 
    ```
+
+4. Run the Project:
+
+   ```bash
+   npm start
+
+   ```
