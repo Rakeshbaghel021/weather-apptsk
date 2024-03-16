@@ -1,10 +1,6 @@
-
 #live link of Weather App
 
- # https://weather-apptsk.netlify.app/
-
-
-
+# https://weather-apptsk.netlify.app/
 
 # Getting Started with Create React App
 
@@ -39,8 +35,14 @@ Here's an example template for a README file with instructions:
 
 2. Navigate to the project directory:
 
-cd repository
+   ```bash
+   cd repository
+
+   ```
 
 3. Install dependencies:
 
-npm install
+   ```bash
+   npm install
+
+   ```
