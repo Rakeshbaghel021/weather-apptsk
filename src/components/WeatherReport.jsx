@@ -20,7 +20,10 @@ function WeatherReport({ weatherData }) {
     : JSON.parse(localStorage.getItem("weatherData")).location;
 
   return (
-    <div className="flex min-h-screen flex-1 flex-col justify-center px-6 py-12 lg:px-8 bg-blue-400 shadow-md">
+    <div
+      className="flex min-h-screen flex-1 flex-col justify-center px-6 py-12 lg:px-8 shadow-md"
+      style={{ backgroundColor: "#5FA5F9" }}
+    >
       <div className="sm:mx-auto sm:w-full sm:max-w-sm bg-white m-5 rounded">
         <h2 className=" text-2xl font-bold leading-9 tracking-tight text-blue-400 flex items-center gap-6 p-3">
           <Link to={"/"}>
@@ -56,7 +59,7 @@ function WeatherReport({ weatherData }) {
           <div className=" flex items-center overflow-hidden  text-center sm:grid-cols-2 lg:grid-cols-2 ">
             <div className=" border-t border-gray-400  border-r  h-32 w-48 overflow-hidden flex gap-2  items-center justify-center">
               <div>
-                <BsThermometerSun size={30} color="blue" />
+                <BsThermometerSun size={30} style={{ color: "#5FA5F9" }} />
               </div>
               <div className="flex-col items-center">
                 <p className="text-xs	font-bold">{feelslike_c}&deg; C</p>
@@ -65,7 +68,7 @@ function WeatherReport({ weatherData }) {
             </div>
             <div className=" border-t border-gray-400 h-32 w-48 overflow-hidden gap-2 flex items-center justify-center">
               <div>
-                <BsDropletHalf size={30} color="blue" />
+                <BsDropletHalf size={30} style={{ color: "#5FA5F9" }} />
               </div>
               <div className="flex-col items-center">
                 <p className="text-xs	font-bold	">{humidity}%</p>

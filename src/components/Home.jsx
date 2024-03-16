@@ -31,7 +31,10 @@ function Home({ setCity, city, setWeatherData, weatherData }) {
   };
 
   return (
-    <div className="flex min-h-screen flex-1 flex-col justify-center px-6 py-12 lg:px-8 bg-blue-400 shadow-md">
+    <div
+      className="flex min-h-screen flex-1 flex-col justify-center px-6 py-12 lg:px-8  shadow-md"
+      style={{ backgroundColor: "#5FA5F9" }}
+    >
       <div className="sm:mx-auto sm:w-full sm:max-w-sm bg-white m-5  rounded">
         <h2 className=" text-2xl font-bold leading-9 tracking-tight text-blue-400 p-3">
           Weather App
@@ -50,7 +53,7 @@ function Home({ setCity, city, setWeatherData, weatherData }) {
                   onChange={(e) => setCity(e.target.value)}
                   placeholder="Enter city name"
                   required
-                  className="block w-full text-center rounded-md border-1 py-1.5 text-black   ring-white/10 focus:ring-2 focus:ring-inset focus:ring-gray-200 sm:text-sm sm:leading-6"
+                  className="block w-full text-center rounded-md border-1 py-1.5 text-black   ring-white/10 focus:ring-2 focus:ring-inset focus:ring-blue-200 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
