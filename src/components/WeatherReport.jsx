@@ -40,9 +40,9 @@ function WeatherReport({ weatherData }) {
         </div>
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <div className="border-b-2	">
-            <img className=" mx-auto	w-36 " src={icon} alt="" />
+            <img className=" mx-auto w-36" src={icon} alt="" />
             <div className="text-center">
-              <p className="text-3xl font-semibold	">{temp_c}&deg; C</p>
+              <p className="text-3xl font-semibold	pb-2">{temp_c}&deg; C</p>
               <p className="text-sm pb-2">{text}</p>
               <p className="text-sm flex items-center justify-center gap-2 pb-2">
                 <span>
@@ -53,8 +53,8 @@ function WeatherReport({ weatherData }) {
               </p>
             </div>
           </div>
-          <div className=" flex gap-1 items-center overflow-hidden  text-center sm:grid-cols-2 lg:grid-cols-2 ">
-            <div className="border-r-2 h-32 w-48 overflow-hidden flex gap-2  items-center justify-center">
+          <div className=" flex items-center overflow-hidden  text-center sm:grid-cols-2 lg:grid-cols-2 ">
+            <div className=" border-t border-gray-400  border-r  h-32 w-48 overflow-hidden flex gap-2  items-center justify-center">
               <div>
                 <BsThermometerSun size={30} color="blue" />
               </div>
@@ -63,7 +63,7 @@ function WeatherReport({ weatherData }) {
                 <p className="text-xs	font-medium	">Feels like</p>
               </div>
             </div>
-            <div className="border-r-2 h-32 w-48 overflow-hidden gap-2 flex items-center justify-center">
+            <div className=" border-t border-gray-400 h-32 w-48 overflow-hidden gap-2 flex items-center justify-center">
               <div>
                 <BsDropletHalf size={30} color="blue" />
               </div>
