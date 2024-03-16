@@ -20,9 +20,7 @@ Here's an example template for a README file with instructions:
 
 # Project Name
 
-## Description
-
-[Description of the project]
+Weather App
 
 ## Installation
 
