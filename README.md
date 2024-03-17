@@ -1,8 +1,8 @@
 #live link of Weather App
 
-![Uploading Screenshot 2024-03-17 at 12.20.25 PM.png…]()
+<img width="1439" alt="Screenshot 2024-03-17 at 12 20 25 PM" src="https://github.com/Rakeshbaghel021/weather-apptsk/assets/52731652/df3fee3e-ec91-4029-aeb1-babff7e4b789">
+<img width="1439" alt="Screenshot 2024-03-17 at 12 27 49 PM" src="https://github.com/Rakeshbaghel021/weather-apptsk/assets/52731652/acb372c6-6713-4fdd-b92b-be5dbd457985">
 
-<img width="1439" alt="Screenshot 2024-03-17 at 12 20 31 PM" src="https://github.com/Rakeshbaghel021/weather-apptsk/assets/52731652/21e9fc9d-5603-408d-a7d0-acea866fa31b">
 
 
 # https://weather-apptsk.netlify.app/
